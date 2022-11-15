@@ -1,0 +1,75 @@
+* { 
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header {
+    background-color: bisque;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.navegador1 {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+li {
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(105, 105, 105, 0.411);
+    border:solid 1px;
+    border-radius: 2px;
+}
+main {
+    padding: 10px 15px;
+    background-color: darksalmon;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.cajota{
+    display: flex;
+    justify-content: space-around;
+}
+.cajagrande {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 2px darksalmon;
+}
+.caja1 {
+    padding: 10px;
+    margin:15px;
+    background-color: beige;
+    border: solid 2px;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30vh;
+    height: 50vh;
+    text-align: center;
+}
+footer {
+    background-color: bisque;
+    height:10vh;
+}
+aside {
+    background-color: darkseagreen;
+    border: solid 2px darksalmon;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- Head  -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Home Resumen</title>
+  </head>
+  <body>
+    <!-- En el body va todo el contenido de la página que se ve (bloque)-->
+    <header>
+      <!-- header, etiqueta semántica, encierra el encabezado de la página ( Logo - Imagen Portada - Barra navegación ) (Bloque)-->
+      <!-- Ipervínculo <a> en imagen logo puede ir sobre imagenes o textos (Linea)-->
+      <!-- <img> se usa para insertar imagen, puede ruta relativa o ruta   -->
+      <a href="index.html"
+        ><img src="./img/logo batman.png" alt="soy un logo"
+      /></a>
+      <nav>
+        <!-- <nav> etiqueta semántica indica barra de navegación (Bloque)-->
+        <ul class="navegador1">
+          <!-- <ul> Indica una lista desordenada, cada items se indica con <li> Para lista ordenada se usa <ol> (bloque)-->
+          <li><a href="./nav/enlace1.html">Enlace 1</a></li>
+          <li><a href="./nav/enlace2.html">Enlace 2</a></li>
+          <li><a href="./nav/enlace3.html">Enlace 3</a></li>
+          <!-- Rutas Realtivas:especifican la ruta de un archivo en su ubicación actual en el servidor o directorio del proyecto -->
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- <main> etiqueta semántica encierra el contenido principal de la página (Bloque) -->
+      <h1>Soy el Título Principal</h1>
+      <!-- h1 titulo Principal, solo puede haber 1 (Bloque) -->
+      <div class="cajota">
+        <div class="cajagrande">
+          <article class="caja1">
+            <h2>Soy un titulo secundario</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui,
+              quis!
+            </p>
+            <button>
+              <a
+                href="https://listado.mercadolibre.com.ar/camiseta-de-argentina#D[A:camiseta%20de%20argentina]"
+                >Comprar</a
+              >
+            </button>
+            <!-- Rutas Absolutas:Este tipo de rutas especifican la dirección directa al archivo alojado en un servidor (hosting), se debe de escribir la URL completa del archivo -->
+          </article>
+          <article class="caja1">
+            <h2>Soy un titulo secundario</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure,
+              velit.
+            </p>
+            <button>
+              <a
+                href="https://listado.mercadolibre.com.ar/camiseta-de-argentina#D[A:camiseta%20de%20argentina]"
+                >Comprar</a
+              >
+            </button>
+            <!-- Rutas Absolutas:Este tipo de rutas especifican la dirección directa al archivo alojado en un servidor (hosting), se debe de escribir la URL completa del archivo -->
+          </article>
+          <article class="caja1">
+            <h2>Soy un titulo secundario</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Molestiae, adipisci!
+            </p>
+            <button>
+              <a
+                href="https://listado.mercadolibre.com.ar/camiseta-de-argentina#D[A:camiseta%20de%20argentina]"
+                >Comprar</a
+              >
+            </button>
+            <!-- Rutas Absolutas:Este tipo de rutas especifican la dirección directa al archivo alojado en un servidor (hosting), se debe de escribir la URL completa del archivo -->
+          </article>
+        </div>
+        <aside>
+          <h3>Titulo no tan importante</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nihil
+            odit deleniti quidem nam culpa cumque, officia voluptatibus natus,
+            unde, quasi et odio provident impedit labore recusandae possimus
+            quia dolorem. Lorem, ipsum dolor sit amet consectetur adipisicing
+            elit. Delectus officiis, perspiciatis non, dignissimos incidunt
+            voluptatibus iure sequi quibusdam temporibus illum maxime
+            consequatur. Tempore aut dolores blanditiis consectetur repellat!
+            Aliquam, quaerat.
+          </p>
+        </aside>
+      </div>
+    </main>
+    <footer>Derechos reservados</footer>
+  </body>
+</html>
